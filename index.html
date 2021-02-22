@@ -3,20 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <title>Piotr Patalong - Freelancer</title>
+    <style>#pgp-modal{display: none; z-index: 99; position: absolute; }</style>
 </head>
 <body>
-    <header>
-        <div id="logo"></div>
-        <div id="burger"></div>
-    </header>
     <main>
         <div id="about">
             <h1>Piotr Patalong</h1>
-            <h2>Freelance programmer, artist</h2>
+            <h2>Freelance programmer, artist.</h2>
+            <img src="https://avatars.githubusercontent.com/u/29167842?v=4" alt="My avatar">
         </div>
-        <div id="social"></div>
+        <div id="social">
+            <div id="Twitter">
+                <img src="https://pbs.twimg.com/profile_images/1023112700824563712/9XMeU9jF_400x400.jpg" alt="My twitter profile picture">
+                <a href="https://twitter.com/patalong_piotr" target="_blank" rel="noopener noreferrer">@patalong_piotr</a>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve"><style type="text/css">	.st0{fill:#1B9DF0;}	.st1{fill:#FFFFFF;}</style><g id="Dark_Blue">	<circle class="st0" cx="200" cy="200" r="200"/></g><g id="Logo__x2014__FIXED">	<path class="st1" d="M163.4,305.5c88.7,0,137.2-73.5,137.2-137.2c0-2.1,0-4.2-0.1-6.2c9.4-6.8,17.6-15.3,24.1-25		c-8.6,3.8-17.9,6.4-27.7,7.6c10-6,17.6-15.4,21.2-26.7c-9.3,5.5-19.6,9.5-30.6,11.7c-8.8-9.4-21.3-15.2-35.2-15.2		c-26.6,0-48.2,21.6-48.2,48.2c0,3.8,0.4,7.5,1.3,11c-40.1-2-75.6-21.2-99.4-50.4c-4.1,7.1-6.5,15.4-6.5,24.2		c0,16.7,8.5,31.5,21.5,40.1c-7.9-0.2-15.3-2.4-21.8-6c0,0.2,0,0.4,0,0.6c0,23.4,16.6,42.8,38.7,47.3c-4,1.1-8.3,1.7-12.7,1.7		c-3.1,0-6.1-0.3-9.1-0.9c6.1,19.2,23.9,33.1,45,33.5c-16.5,12.9-37.3,20.6-59.9,20.6c-3.9,0-7.7-0.2-11.5-0.7		C110.8,297.5,136.2,305.5,163.4,305.5"/></g></svg>            
+            </div>
+            <div id="Facebook">
+                <img src="https://scontent.fktw4-1.fna.fbcdn.net/v/t1.0-9/121324665_1780465042110952_677758720386074454_o.jpg" alt="">
+                <a href="https://www.facebook.com/patalongia" target="_blank" rel="noopener noreferrer">@patalongia</a>
+            </div>
+            <div id="GitHub">
+                <a href="https://github.com/VectorKappa" target="_blank" rel="noopener noreferrer">VectorKappa</a>
+            </div>
+        </div>
         <div id="projects"></div>
         <div id="contact"></div>
+        <div id="pgp" onclick="document.querySelector('#pgp-modal').style.display = 'block'">8867C38B84F0486A1CB02EE016017F16E95224B8</div>
     </main>
+    <div id="pgp-modal" >
+    <span class="close" onclick="document.querySelector('#pgp-modal').style.display = 'none'">&CircleTimes;</span>
+    <pre>
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: User-ID:	Piotr Patalong &lt;piotr@patalong.pl>
+Comment: a.k.a.:	Piotr Patalong &lt;piotrpatalong@gmail.com>
+Comment: a.k.a.:	Peter Patalong &lt;peter@patalong.pl>
+Comment: Created:	19.05.2020 15:21
+Comment: Expires:	19.05.2022 12:00
+Comment: Type:	3 072-bit RSA (secret key available)
+Comment: Usage:	Signing, Encryption, Certifying User-IDs, SSH Authentication
+Comment: Fingerprint:	8867C38B84F0486A1CB02EE016017F16E95224B8
+
+
+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
+=sQ9m
+-----END PGP PUBLIC KEY BLOCK-----
+</pre>
+</div>
 </body>
 </html>
